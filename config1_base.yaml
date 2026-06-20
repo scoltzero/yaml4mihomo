@@ -1,0 +1,607 @@
+# Generated from config1.yaml for subconverter clash_rule_base usage.
+# Anchors and flow mappings are expanded so downstream YAML parsers do not fail.
+
+proxy-groups:
+  - name: "节点选择"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Filter.png"
+    proxies:
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "省流节点"
+      - "高级节点"
+      - "手动切换"
+      - "全球直连"
+      - "机场节点"
+  - name: "手动切换"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Clubhouse.png"
+    proxies:
+      - "台湾节点"
+      - "香港节点"
+      - "全球直连"
+      - "日本节点"
+      - "新加坡节点"
+      - "美国节点"
+      - "韩国节点"
+      - "省流节点"
+      - "高级节点"
+      - "游戏节点"
+      - "机场节点"
+  - name: "漏网之鱼"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Unlock.png"
+    proxies:
+      - "节点选择"
+      - "全球直连"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "省流节点"
+      - "高级节点"
+      - "手动切换"
+      - "机场节点"
+  - name: "网络测试"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Speedtest.png"
+    proxies:
+      - "全球直连"
+      - "节点选择"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "省流节点"
+      - "高级节点"
+      - "手动切换"
+      - "机场节点"
+  - name: "谷歌服务"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Google_Search.png"
+    proxies:
+      - "节点选择"
+      - "人工智能"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "手动切换"
+  - name: "人工智能"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/AI.png"
+    proxies:
+      - "节点选择"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "高级节点"
+      - "手动切换"
+      - "全球直连"
+      - "机场节点"
+  - name: "游戏平台"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Game.png"
+    proxies:
+      - "节点选择"
+      - "全球直连"
+      - "高级节点"
+      - "游戏节点"
+  - name: "Netflix"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Netflix.png"
+    proxies:
+      - "节点选择"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "省流节点"
+      - "高级节点"
+      - "手动切换"
+      - "机场节点"
+  - name: "苹果服务"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Apple.png"
+    proxies:
+      - "全球直连"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "手动切换"
+  - name: "微软服务"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Microsoft.png"
+    proxies:
+      - "全球直连"
+      - "节点选择"
+  - name: "TikTok"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/TikTok.png"
+    proxies:
+      - "节点选择"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "省流节点"
+      - "高级节点"
+      - "手动切换"
+      - "机场节点"
+  - name: "Spotify"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Spotify.png"
+    proxies:
+      - "节点选择"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+      - "省流节点"
+      - "高级节点"
+      - "手动切换"
+      - "机场节点"
+  - name: "PT站点"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Media.png"
+    proxies:
+      - "全球直连"
+      - "节点选择"
+      - "香港节点"
+  - name: "Telegram"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Telegram_X.png"
+    proxies:
+      - "节点选择"
+      - "香港节点"
+      - "新加坡节点"
+      - "韩国节点"
+      - "台湾节点"
+      - "日本节点"
+      - "美国节点"
+  - name: "高级节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "(专线|专用|高级|直连|急速|高倍率|IEPL|IPLC|AIA|CTM|CC|iepl|iplc|aia|ctm|cc|AC|x3|X3|x5|X5)"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/VIP.png"
+  - name: "游戏节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "^(?=.*((?i)游戏|🎮|(\\b(GAME)\\b)))(?!.*((?i)回国|校园)).*$"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Game.png"
+  - name: "香港节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "^(?=.*(?<!深)(港|HK|(?i)Hong))(?!(.*(台|本|坡|美))).*$"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Hong_Kong.png"
+  - name: "新加坡节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "^(?=.*(?i)(坡|🇸🇬|SG|Sing|SIN|XSP)).*$"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Singapore.png"
+  - name: "韩国节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "^(?=.*(?i)(韩|🇰🇷|韓|首尔|南朝鲜|KR|KOR|Korea|South)).*$"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Korea.png"
+  - name: "台湾节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "^(?=.*(?i)(台|🇼🇸|🇹🇼|TW|tai|TPE|TSA|KHH)).*$"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/China.png"
+  - name: "日本节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "^(?=.*(?i)(日|🇯🇵|JP|Japan|NRT|HND|KIX|CTS|FUK)).*$"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/JP.png"
+  - name: "美国节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "^(?=.*(?i)(美|🇺🇸|US|USA|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD)).*$"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/United_States.png"
+  - name: "省流节点"
+    type: "url-test"
+    interval: 30
+    tolerance: 20
+    lazy: true
+    url: "http://detectportal.firefox.com/success.txt"
+    disable-udp: false
+    timeout: 2000
+    max-failed-times: 3
+    hidden: true
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    filter: "(0.[1-5]|低倍率|省流|大流量)"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Proxy.png"
+  - name: "机场节点"
+    type: "select"
+    filter: "^(?!.*(DIRECT|群|邀请|返利|循环|官网|客服|网站|网址|获取|订阅|流量|到期|机场|下次|版本|官址|备用|过期|已用|联系|邮箱|工单|贩卖|通知|倒卖|防止|国内|地址|频道|无法|说明|使用|提示|特别|访问|支持|教程|关注|更新|作者|加入|过滤|USE|USED|TOTAL|EXPIRE|EMAIL|Panel|Channel|Author))"
+    include-all: true
+    include-all-proxies: true
+    include-all-providers: true
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Airport.png"
+  - name: "全球直连"
+    type: "select"
+    icon: "https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Color/Direct.png"
+    proxies:
+      - "DIRECT"
+
+rule-providers:
+  "Private-Domain":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/private.mrs"
+  "Spotify":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/spotify.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/spotify.mrs"
+  "Docker":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/docker.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/docker.mrs"
+  "Telegram":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/telegram.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/telegram.mrs"
+  "OpenAI":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/openai.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/openai.mrs"
+  "Gemini":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/google-deepmind.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google-deepmind.mrs"
+  "AIDomain":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs"
+  "AIChat":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/category-ai-chat-!cn.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-chat-!cn.mrs"
+  "AIChatCN":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/category-ai-cn.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-ai-cn.mrs"
+  "YouTube":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/youtube.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/youtube.mrs"
+  "Google":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/google.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/google.mrs"
+  "GitHub":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/github.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/github.mrs"
+  "Apple":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/apple.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple.mrs"
+  "AppleCN":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/apple-cn.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/apple-cn.mrs"
+  "Microsoft":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/microsoft.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/microsoft.mrs"
+  "TikTok":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/tiktok.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/tiktok.mrs"
+  "PT":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/category-pt.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-pt.mrs"
+  "PT-!CN":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/category-pt@!cn.mrs"
+  "ChinaSpeedtest":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/category-speedtest@cn.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/category-speedtest@cn.mrs"
+  "ForeignSpeedtest":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/category-speedtest.mrs"
+    url: "https://cdn.jsdelivr.net/gh/666OS/rules@refs/heads/release/mihomo/domain/Speedtest.mrs"
+  "SteamCN":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/steam@cn.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam@cn.mrs"
+  "Steam":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/steam.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/steam.mrs"
+  "Nintendo":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/nintendo.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/nintendo.mrs"
+  "Private":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/private.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/private.mrs"
+  "Netflix":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    path: "./rules/Netflix.mrs"
+    url: "https://cdn.jsdelivr.net/gh/666OS/rules@refs/heads/release/mihomo/domain/Netflix.mrs"
+  "Microsoft-CN":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft@cn.mrs"
+  "GameDownload-CN":
+    type: "http"
+    interval: 86400
+    behavior: "domain"
+    format: "mrs"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/metacubex/meta-rules-dat/meta/geo/geosite/category-game-platforms-download@cn.mrs"
+  "Private-IP":
+    type: "http"
+    interval: 86400
+    behavior: "ipcidr"
+    format: "mrs"
+    url: "https://gh-proxy.com/raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/private.mrs"
+  "NetflixIP":
+    type: "http"
+    interval: 86400
+    behavior: "ipcidr"
+    format: "mrs"
+    path: "./rules/netflixip.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/netflix.mrs"
+  "TelegramIP":
+    type: "http"
+    interval: 86400
+    behavior: "ipcidr"
+    format: "mrs"
+    path: "./rules/telegramip.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/telegram.mrs"
+  "ChinaIP":
+    type: "http"
+    interval: 86400
+    behavior: "ipcidr"
+    format: "mrs"
+    path: "./rules/cnip.mrs"
+    url: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/cn.mrs"
+
+rules:
+  - DST-PORT,123,DIRECT
+  - RULE-SET,Private-IP,DIRECT
+  - RULE-SET,Private-Domain,DIRECT
+  - DOMAIN-SUFFIX,test-ipv6.com,全球直连
+  - DOMAIN-SUFFIX,ipv6ready.me,全球直连
+  - DOMAIN-SUFFIX,ipv6-test.com,全球直连
+  - DOMAIN-SUFFIX,ifconfig.me,全球直连
+  - DOMAIN-SUFFIX,api64.ipify.orab,全球直连
+  - DOMAIN-SUFFIX,myexternalip.com,全球直连
+  - DOMAIN-SUFFIX,api64.ipify.org,全球直连
+  - DOMAIN-SUFFIX,gh-proxy.com,全球直连
+  - DOMAIN-SUFFIX,dnsany.com,全球直连
+  - DOMAIN-SUFFIX,cmvideo.cn,全球直连
+  - DOMAIN-SUFFIX,chinamobile.com,全球直连
+  - DOMAIN-SUFFIX,mobaibox.com,全球直连
+  - DOMAIN-SUFFIX,gitv.tv,全球直连
+  - DOMAIN-SUFFIX,cctv.cn,全球直连
+  - DOMAIN-SUFFIX,yangshipin.cn,全球直连
+  - IP-CIDR,8.8.8.8/32,节点选择
+  - IP-CIDR,8.8.4.4/32,节点选择
+  - IP-CIDR,1.1.1.1/32,节点选择
+  - IP-CIDR,1.0.0.1/32,节点选择
+  - RULE-SET,Spotify,Spotify
+  - RULE-SET,Docker,节点选择
+  - RULE-SET,GitHub,节点选择
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,Microsoft,微软服务
+  - RULE-SET,AIChatCN,全球直连
+  - RULE-SET,OpenAI,人工智能
+  - RULE-SET,Gemini,人工智能
+  - RULE-SET,AIDomain,人工智能
+  - RULE-SET,AIChat,人工智能
+  - RULE-SET,YouTube,节点选择
+  - RULE-SET,Google,谷歌服务
+  - RULE-SET,AppleCN,全球直连
+  - RULE-SET,GameDownload-CN,全球直连
+  - RULE-SET,Microsoft-CN,全球直连
+  - RULE-SET,Apple,苹果服务
+  - RULE-SET,TikTok,TikTok
+  - RULE-SET,ChinaSpeedtest,全球直连
+  - RULE-SET,ForeignSpeedtest,网络测试
+  - RULE-SET,PT,PT站点
+  - RULE-SET,PT-!CN,节点选择
+  - RULE-SET,SteamCN,全球直连
+  - RULE-SET,Steam,游戏平台
+  - RULE-SET,Nintendo,游戏平台
+  - RULE-SET,Private,全球直连
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,NetflixIP,Netflix,no-resolve
+  - RULE-SET,TelegramIP,Telegram,no-resolve
+  - RULE-SET,ChinaIP,全球直连,no-resolve
+  - DOMAIN-KEYWORD,tracker,DIRECT
+  - MATCH,漏网之鱼
+
+proxy-providers:
+  msm_manual:
+    type: file
+    path: './proxy_providers/msm_manual.yaml'
+    health-check:
+      enable: true
+      url: http://detectportal.firefox.com/success.txt
+      interval: 120
