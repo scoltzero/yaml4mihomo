@@ -1,0 +1,31 @@
+# OpenAI / ChatGPT / Codex core
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,oaistatsig.com
+
+# Auth / login / enterprise auth helpers
+DOMAIN-SUFFIX,auth.openai.com
+DOMAIN,auth0.openai.com
+DOMAIN,setup.auth.openai.com
+DOMAIN,cdn.workos.com
+DOMAIN,setup.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,workos.imgix.net
+
+# Support / email / payment / challenge / telemetry used by ChatGPT apps
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN,js.intercomcdn.com
+DOMAIN,js.stripe.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,humb.apple.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,rum.browser-intake-datadoghq.com
+
+# OpenAI CDN currently listed by official docs
+DOMAIN,cdn.openaimerge.com
